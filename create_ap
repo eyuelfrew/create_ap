@@ -1581,7 +1581,7 @@ if [[ $NO_VIRT -eq 0 ]]; then
         fi
         if [[ $WIFI_IFACE_CHANNEL -ne $CHANNEL ]]; then
             echo ", fallback to channel ${WIFI_IFACE_CHANNEL}"
-            CHANNEL=$WIFI_IFACE_CHANNEL
+            CHANNEL=$CHANNEL
         else
             echo
         fi
